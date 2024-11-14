@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hello World</title>
+  <link href='/style.css' rel='stylesheet'>
+  <style> 
+    *{font-family: Verdana, Geneva, Tahoma, sans-serif;}
+    body{margin: 0px;}
+    .container{width: 100%;}
+    #tbl{border-collapse: collapse;width: 100%;}
+    #tbl td, #tbl th{border: 1px solid #ddd; padding: 8px;}
+    #tbl tr:hover{background-color:#ddd;}
+    #tbl tr:nth-child(even){background-color: blanchedalmond;}
+    #tbl th{padding-top: 12px; padding-bottom: 12px; text-align: center; background-color: #ddd;}
+
+    #myh1{text-align: center;}
+
+    .btn{border: none; padding:5px 15px; text-align: center; text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 8px;
+    cursor: pointer;}
+    .btngreen{background-color: green; color: azure;}
+    .btngreen:hover{background-color: #013a25;}
+
+    .btnred: {background-color: #ff0000;color: #fff;}
+    .btnred:hover{background-color: #800000;}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="img/avaimg.jpg">
+  </div>
+  <h1>Hello, world!</h1>
+  <button onclick="console.log('hello');">Press me</button>
+  <script defer type="text/javascript" src="/main.js"></script>
+</body>
+</html>
